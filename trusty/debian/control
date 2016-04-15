@@ -7,9 +7,7 @@ Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
 	       libpcan-dev,
-               libhaptix-comm-dev (>= 0.8.99),
-               ros-indigo-kdl-parser,
-               ros-indigo-robot-state-publisher
+               libhaptix-comm-dev (>= 0.8.99)
 Vcs-Browser: https://bitbucket.org/osrf/handsim-release
 Vcs-Hg: https://bitbucket.org/osrf/handsim-release
 Homepage: https://bitbucket.org/osrf/handsim
