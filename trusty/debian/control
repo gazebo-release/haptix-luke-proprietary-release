@@ -1,0 +1,25 @@
+Source: haptix-luke-proprietary
+Standards-Version: 3.9.7
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 7.0.50~),
+	       libpcan-dev,
+               libhaptix-comm-dev (>= 0.8.99),
+               ros-indigo-kdl-parser,
+               ros-indigo-robot-state-publisher
+Vcs-Browser: https://bitbucket.org/osrf/handsim-release
+Vcs-Hg: https://bitbucket.org/osrf/handsim-release
+Homepage: https://bitbucket.org/osrf/handsim
+
+Package: haptix-luke-proprietary
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         libpcan-dev,
+         libhaptix-comm-dev (>= 0.8.99)
+Multi-Arch: same
+Description: A bridge to communicate with a Luke hand using the HAPTIX API

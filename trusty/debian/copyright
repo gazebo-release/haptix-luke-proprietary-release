@@ -1,0 +1,9 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: haptix-luke-proprietary
+Upstream-Contact: gazebo-list@gazebosim.org
+Source: https://bitbucket.org/osrf/haptix-luke-proprietary
+
+Files: *
+Copyright: 2015 Open Source Robotics Foundation
+License: Apache
+ See '/usr/share/common-licenses/Apache-2.0'.
