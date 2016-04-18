@@ -7,7 +7,7 @@ Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
 	       libpcan-dev,
-	       libpcan-basic-dev,
+	       libpcanbasic-dev,
                libhaptix-comm-dev (>= 0.8.99)
 Vcs-Browser: https://bitbucket.org/osrf/haptix-luke-proprietary-release
 Vcs-Hg: https://bitbucket.org/osrf/haptix-luke-proprietary-release
@@ -19,7 +19,7 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          libpcan-dev,
-	 libpcan-basic-dev,
+	 libpcanbasic-dev,
          libhaptix-comm-dev (>= 0.8.99)
 Multi-Arch: same
 Description: A bridge to communicate with a Luke hand using the HAPTIX API
