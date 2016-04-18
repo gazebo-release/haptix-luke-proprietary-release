@@ -8,9 +8,9 @@ Build-Depends: cmake,
                debhelper (>= 7.0.50~),
 	       libpcan-dev,
                libhaptix-comm-dev (>= 0.8.99)
-Vcs-Browser: https://bitbucket.org/osrf/handsim-release
-Vcs-Hg: https://bitbucket.org/osrf/handsim-release
-Homepage: https://bitbucket.org/osrf/handsim
+Vcs-Browser: https://bitbucket.org/osrf/haptix-luke-proprietary-release
+Vcs-Hg: https://bitbucket.org/osrf/haptix-luke-proprietary-release
+Homepage: https://bitbucket.org/osrf/haptix-luke-proprietary
 
 Package: haptix-luke-proprietary
 Architecture: any
